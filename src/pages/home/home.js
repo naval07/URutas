@@ -2,13 +2,20 @@ import React from "react";
 import Header from '../../components/header/header';
 import Subheader from "../../components/subheader/Subheader";
 import Catalogo from '../../components/catalogo/Catalogo';
-
+import { useNavigate } from "react-router-dom";
 import './home.css';
 
-import {Link} from "react-router-dom";
+
+
+
 
 function Home(){
+    const navigate = useNavigate()
+    const goToNewPage=()=>{
+        navigate("/search");
+    }
     return(
+        
         <div>
             <Header />
             <div class = "content">
@@ -29,11 +36,10 @@ function Home(){
                 El modelo de URutas está diseñado para generar rutas acordes a cualquier habilidad que se desee, incluyendo aquellas ampliamente recomendadas por la vanguardia de la industria; como el Foro Económico Mundial.
                 </p>
 
-                <div class="boton" >
-                    <Link to='/search'>
-                        Haz tu ruta de aprendizaje aquí
-                    </Link>
-                </div>
+                <button class="boton" onClick={() => goToNewPage()}>
+                    Haz tu ruta de aprendizaje aquí
+                </button>
+                
             </div>
             <div className="cat">
                 <h2>Lista de cursos</h2>

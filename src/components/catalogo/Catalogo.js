@@ -7,11 +7,14 @@ import './Catalogo.css';
 
 function Catalogo(){
     const [modalDescription, setModalDescription] = useState(''); 
-  const [mostrarModal, setMostrarModal] = useState(false);
+    const [mostrarModal, setMostrarModal] = useState(false);
+
     const abrirModal = (description) => {
         setModalDescription(description);
         console.log('mostrando modal');
+        console.log('Modal opened with description:', description);
         setMostrarModal(true);
+        console.log('modal',mostrarModal);
       };
       
       const cerrarModal = () => {
@@ -20,35 +23,35 @@ function Catalogo(){
 
       const handleClick = (descripcion) => {
         console.log('abriendo modaaal');
+        console.log('Modal opened with description:', descripcion);
         setModalDescription(descripcion);
         setMostrarModal(true);
+        console.log('modal',mostrarModal);
       }
     
     
     return(
         <div class = "catalogo">
-            {catalogo.map((item) =>(
-                    <CardSearch
-                    key = {item.index}
-                    title = {item.Título}
-                    area = {item.area}
-                    descripcion={item.proposito}
-                    onClick={handleClick}
-                    />
-                ))}
-                
-
-                {mostrarModal && (
-      <div className="modal">
-        <div className="modal-content">
-            <h4>Descripción del curso</h4>
-        <p>{modalDescription}</p>
-        <button onClick={()=>setMostrarModal(false)}>Cerrar</button>
-            </div>
-      </div>
-    )}
-            
-
+            {catalogo.map(
+              (item) =>(<CardSearch
+                  key = {item.index}
+                  title = {item.Título}
+                  area = {item.area}
+                  descripcion={item.proposito}
+                  onClick={handleClick}/>
+                )
+              )
+            }
+            {mostrarModal && (
+                <div className="modal">
+                  <div className="modal-content">
+                    <h4>Descripción del curso</h4>
+                    <p>{modalDescription}</p>
+                    <button onClick={()=>{console.log('Modal cerrado');setMostrarModal(false)}}>Cerrar</button>
+                  </div>
+                </div>
+            )}
+    
         </div>
     )
 }

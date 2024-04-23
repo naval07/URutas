@@ -30,12 +30,11 @@ function Search(){
         setMostrarCursos(true)
     }
 
-    const [modalDescription, setModalDescription] = useState(''); 
-  const [mostrarModal, setMostrarModal] = useState(false);
-    const abrirModal = (description) => {
+      const [modalDescription, setModalDescription] = useState(''); 
+      const [mostrarModal, setMostrarModal] = useState(false);
+      const abrirModal = (description) => {
         setModalDescription(description);
         console.log('mostrando modal');
-        
         setMostrarModal(true);
       };
       
@@ -44,6 +43,7 @@ function Search(){
       };
       const handleClick = (descripcion) => {
         console.log('abriendo modaaal');
+        console.log('Modal opened with description:', descripcion);
         setModalDescription(descripcion);
         setMostrarModal(true);
       }
