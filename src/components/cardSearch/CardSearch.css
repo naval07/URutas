@@ -1,0 +1,29 @@
+.cardSearch{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 270px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.25);
+   
+}
+
+.contenido{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    color: black;
+}
+
+.contenido a{
+    justify-self: end;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.contenido a:hover{
+    color: var(--rojoUR) !important;
+}

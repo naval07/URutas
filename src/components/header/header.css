@@ -1,0 +1,60 @@
+header{
+    width: auto;
+    height: 100px;
+    background-color: var(--grisAl50);
+    display: flex;
+    
+    align-items: center;
+  }
+  
+  .logoUR{
+    padding: 17px 20px 17px 17px;
+  }
+  
+  
+  .logoUR img{
+    width: 170px;
+  
+  }
+  
+  .nav{
+    
+    display: flex;
+  }
+  
+  
+  
+  .nav a{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--navy);
+    padding-right:20px;
+    text-decoration: none;
+  }
+  
+  .nav a:hover{
+    color: var(--azul);
+  }
+  .search{
+    display: flex;
+    align-items: center;
+  }
+  
+  #searchInput {
+    padding: 5px;
+    border: 1px solid var(--navy);
+    
+  }
+  
+  #searchButton {
+    background-color: var(--grisAl50);
+    color: var(--navy);
+    border: none;
+    
+    cursor: pointer;
+  }
+  
+  #searchButton img{
+    width:20px;
+  }
+  

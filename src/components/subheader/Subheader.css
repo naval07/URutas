@@ -1,0 +1,26 @@
+.subheader{
+    display: flex;
+    background-size: cover;
+    background-image: url('./banner.png');
+    background-position: 0% 40%;
+    height: 180px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    align-items: flex-end;
+
+}
+
+.Title {
+    display: flex;
+    width: 100%;
+    padding: 50px 20px 20px 20px;
+    height: 180px;
+    background-color: rgba(250, 244, 244, 0.5);
+    align-items: flex-end;
+}
+
+.Title h1{
+    
+    font-weight: 600;
+    
+}
