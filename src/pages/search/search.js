@@ -8,6 +8,8 @@ import catalogo from "../../components/catalogo/Catalogo";
 
 import cursos from "../../cursos.json";
 import CardSearch from "../../components/cardSearch/CardSearch";
+import CardTrial from "../../components/cardtrial/CardTrial";
+
 function Search(){
 
     const [prompt, setPrompt] = useState('');
@@ -53,6 +55,7 @@ function Search(){
 
     return(
         <div>
+
             <Header/>
             <div className="content">
             <Subheader title="Búsqueda por aptitud"/>
@@ -60,6 +63,18 @@ function Search(){
             <div className="searchbar">
                 <input type="text" value={prompt} onChange={(e) => setPrompt(e.target.value)} placeholder="Escriba la habilidad que quiera aprender :)"/>
                 <button onClick={handleGetJson}>Buscar</button>
+            </div>
+
+            <div className="cursosLista1">
+              <div className="cursosLista1-grid ">
+              {cursos.map(item =>(
+                          <CardTrial
+                          key = {item.id}
+                          title = {item.titulo}
+                          area = {item.area}
+                          descripcion={item.descripcion}/>
+                      ))}
+              </div>
             </div>
 
             <div className="cursosLista">
@@ -87,7 +102,6 @@ function Search(){
             
 
                         </div>
-
 
         </div>
 

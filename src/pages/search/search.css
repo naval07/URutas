@@ -36,6 +36,18 @@
   gap: 20px;
 }
 
+.cursosLista1 {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+}
+
+.cursosLista1-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr); /* Tres columnas con el mismo tamaño */
+  gap: 20px;
+}
+
 
 /* Estilos para el modal */
 .modal {

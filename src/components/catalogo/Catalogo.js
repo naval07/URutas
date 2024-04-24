@@ -2,6 +2,7 @@ import Card from '../card/Card';
 import React, {useState} from "react";
 import catalogo from './catalogo.json';
 import CardSearch from '../cardSearch/CardSearch';
+import CardTrial from '../cardtrial/CardTrial';
 import './Catalogo.css';
 
 
@@ -33,12 +34,12 @@ function Catalogo(){
     return(
         <div class = "catalogo">
             {catalogo.map(
-              (item) =>(<CardSearch
+              (item) =>(<CardTrial
                   key = {item.index}
                   title = {item.Título}
                   area = {item.area}
                   descripcion={item.proposito}
-                  onClick={handleClick}/>
+                  />
                 )
               )
             }
