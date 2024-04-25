@@ -24,7 +24,7 @@ def get_json_from_prompt(prompt, dataset):
         lista_de_diccionarios.append(curso_dict)
 
     json_data = json.dumps(lista_de_diccionarios, ensure_ascii=False, indent=2)
-    # ruta_archivo = "../src/catalogo.json"
+    #ruta_archivo = "../src/catalogo.json"
     ruta_archivo = "../cursos.json"
 
     ruta_completa = os.path.abspath(ruta_archivo)
