@@ -1,60 +1,138 @@
-header{
-    width: auto;
-    height: 100px;
-    background-color: var(--grisAl50);
-    display: flex;
-    
-    align-items: center;
+header {
+  width: auto;
+  height: 100px;
+  background-color: var(--grisAl50);
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.logoUR {
+  padding: 17px 20px 17px 17px;
+}
+
+.logoUR img {
+  width: 170px;
+}
+
+.nav {
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 20px;
+}
+
+.nav a {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--navy);
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: var(--azul);
+}
+
+.search {
+  height: 100%;
+  width: 40%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-self: flex-end;
+  padding-right: 20px;
+}
+
+#searchInput {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid var(--navy);
+  margin-right: 0.5rem;
+}
+
+#searchButton {
+  background-color: var(--grisAl50);
+  color: var(--navy);
+  border: none;
+  cursor: pointer;
+}
+
+#searchButton img {
+  width: 20px;
+}
+
+/* Boton de hamburguesa para la version mobil */
+.nav-btn {
+  display: none;
+  color: var(--navy);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+}
+
+/* Breakpoint 992px (tablet design)*/
+@media (max-width: 992px) {
+  #nav-elem-aptitud,
+  #nav-elem-especifica {
+    text-align: center;
+    width: 35%;
   }
-  
-  .logoUR{
-    padding: 17px 20px 17px 17px;
+
+  .search {
+    padding-right: 10px;
   }
-  
-  
-  .logoUR img{
-    width: 170px;
-  
-  }
-  
-  .nav{
-    
-    display: flex;
-  }
-  
-  
-  
-  .nav a{
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--navy);
-    padding-right:20px;
-    text-decoration: none;
-  }
-  
-  .nav a:hover{
-    color: var(--azul);
-  }
-  .search{
-    display: flex;
-    align-items: center;
-  }
-  
+
   #searchInput {
-    padding: 5px;
-    border: 1px solid var(--navy);
-    
+    width: 150px;
   }
-  
-  #searchButton {
+}
+
+/* Breakpoint 768px (mobile design)*/
+@media (max-width: 768px) {
+  header {
+    justify-content: flex-end;
+    padding-right: 10%;
+  }
+
+  .logoUR {
+    flex: 1 0 50%;
+  }
+
+  .nav-btn {
+    /* Se muestra el botón */
+    display: inline-block;
+    align-self: center;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    right: 10%;
+    height: auto;
+    width: auto;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
     background-color: var(--grisAl50);
-    color: var(--navy);
-    border: none;
-    
-    cursor: pointer;
+    transition: 0.2s;
+    transform: translateY(-100vh);
+    border-radius: 10px;
   }
-  
-  #searchButton img{
-    width:20px;
+
+  #nav-elem-aptitud,
+  #nav-elem-especifica {
+    text-align: start;
+    width: auto;
   }
-  
+
+  .navbar-burger {
+    transform: none;
+  }
+}

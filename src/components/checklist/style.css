@@ -22,6 +22,7 @@ body {
 
 .searchbar {
   padding-top: 5%;
+  width: 90%;
 }
 
 .searchbar input {
@@ -32,11 +33,13 @@ body {
   border-radius: 20px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   background-color: var(--navy);
+  width: 70px;
 }
 
 .coursesList {
   padding-top: 5%;
   display: grid;
+  justify-items: center;
   grid-template-columns: repeat(3, 1fr); /* Tres columnas con el mismo tamaño */
   gap: 20px;
 }
@@ -62,7 +65,7 @@ body {
   }
 }
 
-/* Breakpoint 768px (movile design)*/
+/* Breakpoint 768px (mobile design)*/
 @media (max-width: 768px) {
   .coursesList {
     grid-template-columns: repeat(1, 1fr); /* Muestra 1 tarjetas por fila */

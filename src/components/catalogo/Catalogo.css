@@ -56,7 +56,7 @@
   }
 }
 
-/* Breakpoint 768px (movile design)*/
+/* Breakpoint 768px (mobile design)*/
 @media (max-width: 768px) {
   .catalogo {
     grid-template-columns: repeat(1, 1fr); /* Muestra 1 tarjetas por fila */

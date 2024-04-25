@@ -1,51 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;500;600&display=swap");
 
-*{
-    margin:0 ;
-    padding:0 ;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body, html{
-  margin:0;
-  padding:0;
+body,
+html {
+  margin: 0;
+  padding: 0;
 }
 
-:root{
-    --rojoUR: #DA0921;
-    --azul: #3100A0;
-    --navy: #190356;
-    --grisAl50: #D9D9D9;
-    --grisAl70: #6F6F6E; 
+:root {
+  --rojoUR: #da0921;
+  --azul: #3100a0;
+  --navy: #190356;
+  --grisAl50: #d9d9d9;
+  --grisAl70: #6f6f6e;
 }
 
-body{
-  font-family: 'Merriweather Sans', sans-serif !important;
+body {
+  font-family: "Merriweather Sans", sans-serif !important;
   color: var(--navy);
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
-h1{
+h1 {
   font-size: 3rem;
   font-weight: 600;
 }
 
-h2{
+h2 {
   font-size: 2rem;
   font-weight: 500;
 }
 
-h3 { 
+h3 {
   font-size: 1.5rem;
   font-weight: 300;
 }
 
-p{
+p {
   font-size: 1rem;
   font-weight: 300;
 }
-
 
 /*los que vienen por default que me da miedo tocar*/
 
@@ -87,6 +87,3 @@ p{
     transform: rotate(360deg);
   }
 }
-
-
-

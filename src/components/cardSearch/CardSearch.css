@@ -34,7 +34,7 @@
   }
 }
 
-/* Breakpoint 768px (movile design)*/
+/* Breakpoint 768px (mobile design)*/
 @media (max-width: 768px) {
   .cardSearch {
     width: 70%;
