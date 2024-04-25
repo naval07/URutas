@@ -1,21 +1,21 @@
 [
   {
     "id": 1,
-    "titulo": "Matemáticas para la U",
-    "descripcion": "\n* Conocer el conjunto de los números, sus propiedades y las principales operaciones que se pueden realizar con ellos. \n* Realizar operaciones con expresiones algebraicas y productos notables.\n* Identificar ecuaciones y desigualdades, y resolverlas usando la técnica adecuada. \n* Diferenciar los tipos de funciones y conocer sus aplicaciones. \n",
-    "area": "Matemáticas"
+    "titulo": "Arte indigena contemporáneo",
+    "descripcion": "\n*  Evidenciar los procesos de construcción de la identidad indígena contemporánea a través del quehacer artístico/plástico.\n\n*  Reflexionar en torno a los conceptos de identidad, resistencia, género, ritual y cuerpo desde la perspectiva Misak.\n\n*  Comprender mediante una perspectiva crítica, el proceso de construcción de la identidad femenina dentro de la comunidad Misak, en relación con la contemporaneidad.\n\n*  Conocer la práctica del hilar y generar una reflexión alrededor de ésta, a partir de la cosmovisión de las comunidades Nasa y Misak.",
+    "area": "Arte, diseño y cultura"
   },
   {
     "id": 2,
-    "titulo": "Elementos matemáticos para el pensamiento crítico",
-    "descripcion": "* Identificar herramientas de la aritmética útiles para próximos cursos de matemáticas y para enfrentar situaciones de la cotidianidad que requieren del uso de las matemáticas.\n\n* Reconocer los exponentes, sus propiedades, realizar operaciones entre polinomios, así como usar los productos notables y la factorización.",
-    "area": "Matemáticas"
+    "titulo": "Conflictos sociales a través de la novela gráfica contemporánea",
+    "descripcion": "* Reconocer elementos clave para leer e identificar en la novela gráfica, los diferentes tipos de narrativas que se expresan en las representaciones de la realidad de conflictos sociales.\n\n* Comprender los elementos generales del panorama de los conflictos sociales contemporáneos.\n\n* Identificar los componentes generales de la narración de la novela gráfica que es producto de una investigación periodística.\n\n* Reconocer el papel del testimonio y el ejercicio biográfico en la novela gráfica. ",
+    "area": "Ciencias sociales"
   },
   {
     "id": 3,
-    "titulo": "Fundamentos de programación de computadores",
-    "descripcion": "* Conocer los fundamentos de programación, datos históricos relevantes y aplicar lenguaje de programación Python.\n\n* Comprender los conceptos fundamentales de programación como expresiones, funciones, condicionales, iteraciones, cadenas de caracteres, colecciones, módulos y archivos.\n\n* Conocer y aplicar el paradigma de programación orientada a objetos como clases, objetos, excepciones y herencia.",
-    "area": "Análisis de datos y computación"
+    "titulo": "Economía del comportamiento para una gestión pública efectiva",
+    "descripcion": "* Entender las limitaciones de los modelos microeconómicos estándar. \n\n* Expandir el conocimiento de modelos alternativos del comportamiento humano.\n\n* Mejorar el entendimiento del rol de la psicología humana en el comportamiento económico.\n\n* Usar las ideas de la economía del comportamiento para desarrollar mejores prescripciones de política.",
+    "area": "Economía y negocios"
   },
   {
     "id": 4,
