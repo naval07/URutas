@@ -2,6 +2,7 @@ import './CardSearch.css';
 
 function CardSearch({title, area, descripcion, onClick}){
     const handleClick = () =>{
+        console.log('onClick prop in CardSearch:', onClick); 
         onClick(descripcion)
     };
 
