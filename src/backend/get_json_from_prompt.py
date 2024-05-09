@@ -32,8 +32,8 @@ def get_json_from_prompt(prompt, dataset):
     with open(ruta_completa, "w", encoding='utf-8') as json_file:
            json.dump(lista_de_diccionarios, json_file, ensure_ascii=False, indent=2)
 
-    print(json_data)
-    print('primero', json_data[0])
+    # print(json_data)
+    # print('primero', json_data[0])
     json_data = '{' + json_data[1:len(json_data)-1] + '}'
-    print(json_data)
+    #print(json_data)
     return json_data
