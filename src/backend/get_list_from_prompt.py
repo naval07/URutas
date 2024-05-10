@@ -1,3 +1,4 @@
+"""
 def get_list_from_prompt(dataset,prompt,nlp):
   scores = []
   selected_courses = []
@@ -24,3 +25,27 @@ def get_list_from_prompt(dataset,prompt,nlp):
       score_curso = course[1]
       selected_courses.append([score_curso, dataset.loc[i, "Título"], dataset.loc[i, "Nivel"], dataset.loc[i, "Resultados de aprendizaje esperados"], dataset.loc[i, "Área temática"]])
   return selected_courses
+"""
+def get_list_from_prompt(dataset, prompt, classifier):
+    dataset["proposito_norm_title"] = dataset["Título"] + " " + dataset["proposito_norm"]
+    prop_list = dataset["proposito_norm_title"].tolist()
+    results = classifier(prop_list, candidate_labels=[prompt])
+
+    print("Resultados de classifier:", results)
+
+    selected_courses = []
+    for i in range(len(results)):
+        if results[i]["scores"][0] > 0.8:
+            selected_courses.append([i, 
+                                     dataset.loc[i, "Título"], 
+                                     dataset.loc[i, "Nivel"],
+                                     dataset.loc[i, "Resultados de aprendizaje esperados"],
+                                     dataset.loc[i, "Área temática"]])
+            
+    # Aplicar la lógica para seleccionar los cursos
+    if len(selected_courses) > 6:
+        # Ordenar por el score y seleccionar los primeros 5
+        selected_courses.sort(key=lambda x: x[0], reverse=True)
+        selected_courses = selected_courses[:6]
+
+    return selected_courses
