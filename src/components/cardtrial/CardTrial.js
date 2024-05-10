@@ -1,16 +1,27 @@
-import React, { useState } from 'react';
-import './CardTrial.css';
+import React, { useState } from "react";
+import "./CardTrial.css";
 
-function CardTrial({title, area, descripcion}) {
+function CardTrial({ title, area, descripcion }) {
   const [expanded, setExpanded] = useState(false);
 
   function expand() {
     setExpanded(!expanded);
   }
 
+  function getRandomImg() {
+    var numeroImg = Math.floor(Math.random() * 10 + 1);
+    var ruta = "/fondoCartas/img" + String(numeroImg) + ".jpg";
+    return ruta;
+  }
+
   return (
-    <div className={`card ${expanded ? 'expand' : ''}`} onClick={expand}>
-      <div className="title">
+    <div className={`card ${expanded ? "expand" : ""}`} onClick={expand}>
+      <div
+        className="title"
+        style={{
+          backgroundImage: `url("${process.env.PUBLIC_URL + getRandomImg()}")`,
+        }}
+      >
         <h3>{title}</h3>
         <div>Área: {area}</div>
       </div>
