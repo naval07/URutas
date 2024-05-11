@@ -48,6 +48,8 @@ def get_list_from_prompt(dataset, prompt, classifier):
     print("Resultados de classifier:", results)
 
     selected_courses = []
+    other_courses = []
+
     for i in range(len(results)):
         if results[i]["scores"][0] > 0.8:
             selected_courses.append([results[i]["scores"][0], 
@@ -55,10 +57,19 @@ def get_list_from_prompt(dataset, prompt, classifier):
                                      dataset.loc[i, "Nivel"],
                                      dataset.loc[i, "Resultados de aprendizaje esperados"],
                                      dataset.loc[i, "Área temática"]])
-            
-    selected_courses.sort(key=lambda x: x[0], reverse=True)        
+        else:
+            other_courses.append([results[i]["scores"][0], 
+                                         dataset.loc[i, "Título_original"], 
+                                         dataset.loc[i, "Nivel"],
+                                         dataset.loc[i, "Resultados de aprendizaje esperados"],
+                                         dataset.loc[i, "Área temática"]])        
     
     if len(selected_courses) > 6:
+        selected_courses.sort(key=lambda x: x[0], reverse=True)
         selected_courses = selected_courses[:6]
+
+    elif len(selected_courses) < 6:
+        other_courses.sort(key=lambda x: x[0], reverse=True)
+        selected_courses += other_courses[:6 - len(selected_courses)]
 
     return selected_courses

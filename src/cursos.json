@@ -1,38 +1,38 @@
 [
   {
-    "id": 0.99051433801651,
-    "titulo": "Fundamentos de Circuitos",
+    "id": 0.9926683902740479,
+    "titulo": "Integridad cientifica: herramientas para las buenas practicas de investigacion",
     "descripcion": "X",
-    "area": "ING"
+    "area": "Ciencias humanas Ciencias sociales"
   },
   {
-    "id": 0.9870045781135559,
-    "titulo": "Seguridad  en el Ciclo  de Desarrollo  de Software",
-    "descripcion": "X",
-    "area": "MACC"
-  },
-  {
-    "id": 0.9867771863937378,
-    "titulo": "Teoria y Politica del Comercio Internacional",
+    "id": 0.9874114990234375,
+    "titulo": "Globalizacion, Finanzas y  Comercio Internacional",
     "descripcion": "X",
     "area": "Finanzas y Comercio Internacional"
   },
   {
-    "id": 0.9821341037750244,
-    "titulo": "Fundamentos de  electronica analoga",
-    "descripcion": "X",
-    "area": "ING"
-  },
-  {
-    "id": 0.9818404912948608,
-    "titulo": "Procesamiento  de Senales  e Imagenes",
+    "id": 0.9868153929710388,
+    "titulo": "Variable  compleja",
     "descripcion": "X",
     "area": "MACC"
   },
   {
-    "id": 0.9744347929954529,
-    "titulo": "Diseno de Sistemas Digitales",
+    "id": 0.9779466390609741,
+    "titulo": "Calculo 2",
     "descripcion": "X",
-    "area": "EICT"
+    "area": "MACC"
+  },
+  {
+    "id": 0.977671205997467,
+    "titulo": "Control",
+    "descripcion": "X",
+    "area": "ING"
+  },
+  {
+    "id": 0.9765129685401917,
+    "titulo": "El poder de la comunicacion consciente",
+    "descripcion": "X",
+    "area": "Ciencias humanas Comunicación"
   }
 ]
