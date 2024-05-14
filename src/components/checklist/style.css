@@ -12,13 +12,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 */
-.card {
+/* .card {
   background: var(--surface-card);
   padding: 2rem;
   border-radius: 10px;
   margin-bottom: 1rem;
   width: 90rem;
-}
+} */
 
 .searchbar {
   padding-top: 5%;
