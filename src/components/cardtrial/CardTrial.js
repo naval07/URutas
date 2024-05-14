@@ -17,11 +17,12 @@ function CardTrial({ title, area, descripcion }) {
   return (
     <div className={`card ${expanded ? "expand" : ""}`} onClick={expand}>
       <div
-        className="title"
+        className="card-image"
         style={{
           backgroundImage: `url("${process.env.PUBLIC_URL + getRandomImg()}")`,
         }}
-      >
+      ></div>
+      <div className="title">
         <h3>{title}</h3>
         <div>Área: {area}</div>
       </div>

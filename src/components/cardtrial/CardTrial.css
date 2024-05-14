@@ -1,38 +1,50 @@
 .card {
-    /*border: 1px solid #dbdbdb;*/
-    border-radius: 20px;
-    max-width: 350px;
-    max-height: 200px;
-    overflow: hidden;
-    transition: all 0.6s ease;
-    will-change: height;
-    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.25);
-    flex-direction: column;
-    padding: 2%;
-    box-sizing: border-box;
-  }
-  
-  .title {
-    cursor: pointer;
-    padding: 3%;
-  }
-  
-  .card p {
-    opacity: 0;
-    transition: all 0.6s ease;
-    padding: 3%;
-  }
-  
-  /*div,
+  /*border: 1px solid #dbdbdb;*/
+  border-radius: 20px;
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+  transition: all 0.6s ease;
+  will-change: height;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.card-image {
+  /* Background image config */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100px;
+}
+
+.title {
+  cursor: pointer;
+  padding: 5%;
+}
+
+.title h3 {
+  font-size: 1.5rem;
+}
+
+.card p {
+  display: none;
+  /* opacity: 0; */
+  transition: all 0.6s ease;
+  padding: 5%;
+}
+
+/*div,
   p {
     box-sizing: border-box;
   }*/
-  
-  .card.expand {
-    max-height: none;
-  }
-  
-  .card.expand p {
-    opacity: 1;
-  }
-  
+
+.card.expand {
+  max-height: none;
+}
+
+.card.expand p {
+  display: block;
+  /* opacity: 1; */
+}

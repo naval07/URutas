@@ -30,7 +30,7 @@ def buscar2():
     selected = data.get('prompt', '')
     print('habilidades seleccionadas',selected)
     prompt = get_prompt_from_habilities(selected)
-    file_path = os.path.abspath('src/backend/Cursos_UR_Normalizados_completo.csv')
+    file_path = os.path.abspath('Final_Cursos_normalizados.csv')
     dataset = pd.read_csv(file_path)
     # Llamada a tu función existente
     datos = get_json_from_prompt(prompt, dataset)
