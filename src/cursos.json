@@ -1,32 +1,38 @@
 [
   {
-    "id": 1,
-    "titulo": "Comunicación oral en entornos jurídicos.",
-    "descripcion": "* Establecer la relación entre consciencia corporal y la comunicación oral.\n\n* Identificar cómo las emociones afectan nuestro cuerpo.\n\n* Determinar la incidencia del humor en el papel de la comunicación oral.\n\n* Definir las técnicas de improvisación para un mejor desarrollo como orador.",
-    "area": "Derecho y ciencias políticas"
+    "id": 0.9855799078941345,
+    "titulo": "Calculo I",
+    "descripcion": "X",
+    "area": "Economía"
   },
   {
-    "id": 2,
-    "titulo": "Habilidades de gestión emocional para el aprendizaje",
-    "descripcion": "* Identificar características emocionales a nivel personal que favorecen el proceso de aprendizaje.\n\n* Establecer la relación entre inteligencia emocional y aprendizaje.\n\n* Identificar la importancia de la motivación como estrategia de regulación emocional en la adquisición de conocimientos.\n\n* Reconocer estrategias para favorecer la expresión emocional en el proceso de aprendizaje.",
-    "area": "Desarrollo personal"
+    "id": 0.984001636505127,
+    "titulo": "Economia Financiera",
+    "descripcion": "X",
+    "area": "Finanzas y Comercio Internacional"
   },
   {
-    "id": 3,
-    "titulo": "Competencias para alinear las emociones con la mente",
-    "descripcion": "*Comprender el método de la Bioneuroemoción, la  técnica \"Dejar ir\" y las dimensiones del saber se cuidar.\n* Describir los 16 niveles del mapa de conciencia.\n* Cómo aprender a neutralizar las emociones negativas y desarrollar las emociones positivas.D21\n* Analizar la relación de la mente con el “pequeño yo” llamado ego.\n* Hacer consciente los efectos del miedo y el apego.\n* Diseñar estrategias que proporcionen la resiliencia en situaciones de adversidad.\n* Entender relación cuerpo mente.",
-    "area": "Desarrollo personal\nSalud y seguridad"
+    "id": 0.9831175804138184,
+    "titulo": "Economia Matematica",
+    "descripcion": "X",
+    "area": "Economía"
   },
   {
-    "id": 4,
-    "titulo": "El poder de la comunicación consciente",
-    "descripcion": "* Contextualizar la comunicación como un proceso inherente a los seres humanos a partir de la revisión de los conceptos básicos que la explican.\n\n* Significar el valor del silencio y el diálogo interno como fuentes activas de la comunicación propositiva.\n\n* Precisar la importancia que tiene la dimensión emocional en el proceso comunicativo para aplicarlo de manera más asertiva en las relaciones interpersonales.\n\n* Aplicar herramientas de uso personal para mantener una dinámica de comunicación intra e interpersonal asertiva.",
-    "area": "Ciencias humanas\nComunicación"
+    "id": 0.9819446802139282,
+    "titulo": "Principios de economia",
+    "descripcion": "X",
+    "area": "Economía y negocios"
   },
   {
-    "id": 5,
-    "titulo": "Litigio estratégico y derechos humanos",
-    "descripcion": "* Comprenderás y aplicarás con claridad los conceptos de derechos humanos, interés público y litigio estratégico.\n\n* Diseñarás una agenda de litigio estratégico en un tema concreto que amerite la utilización de las herramientas estudiadas y ponerlas en ejecución a través de una clínica hipotética.\n\n* Diseñarás una agenda de litigio estratégico en un tema concreto que amerite la utilización de las herramientas estudiadas y ponerlas en ejecución a través de una clínica hipotética.\n\n* Podrás conocer la importancia de la educación legal clínica, los avances del litigio estratégico y el trabajo probono en la región.",
-    "area": "Derecho y ciencias políticas"
+    "id": 0.9762879014015198,
+    "titulo": "ECONOMÍA DEL COMPORTAMIENTO",
+    "descripcion": "X",
+    "area": "Analítica de Datos y Mercado"
+  },
+  {
+    "id": 0.974628746509552,
+    "titulo": "Economia del comportamiento para una gestion publica efectiva",
+    "descripcion": "X",
+    "area": "Economía y negocios"
   }
 ]
