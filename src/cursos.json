@@ -1,38 +1,50 @@
 [
   {
-    "id": 0.9855799078941345,
-    "titulo": "Calculo I",
+    "id": 0.9086989760398865,
+    "titulo": "Educacion emocional para el bienestar personal",
     "descripcion": "X",
-    "area": "Economía"
+    "area": "Desarrollo personal Salud y seguridad"
   },
   {
-    "id": 0.984001636505127,
-    "titulo": "Economia Financiera",
+    "id": 0.975669801235199,
+    "titulo": "Derechos Humanos y empresas",
     "descripcion": "X",
-    "area": "Finanzas y Comercio Internacional"
+    "area": "Derecho y ciencias políticas"
   },
   {
-    "id": 0.9831175804138184,
-    "titulo": "Economia Matematica",
+    "id": 0.9708540439605713,
+    "titulo": "El poder de la comunicacion consciente",
     "descripcion": "X",
-    "area": "Economía"
+    "area": "Ciencias humanas Comunicación"
   },
   {
-    "id": 0.9819446802139282,
-    "titulo": "Principios de economia",
+    "id": 0.7770038843154907,
+    "titulo": "Seguridad de redes",
     "descripcion": "X",
-    "area": "Economía y negocios"
+    "area": "MACC"
   },
   {
-    "id": 0.9762879014015198,
-    "titulo": "ECONOMÍA DEL COMPORTAMIENTO",
+    "id": 0.718051016330719,
+    "titulo": "Conflictos sociales a traves de la novela grafica contemporanea",
     "descripcion": "X",
-    "area": "Analítica de Datos y Mercado"
+    "area": "Ciencias sociales"
   },
   {
-    "id": 0.974628746509552,
-    "titulo": "Economia del comportamiento para una gestion publica efectiva",
+    "id": 0.7143043279647827,
+    "titulo": "Comunicacion oral en entornos juridicos.",
     "descripcion": "X",
-    "area": "Economía y negocios"
+    "area": "Derecho y ciencias políticas"
+  },
+  {
+    "id": 0.69569993019104,
+    "titulo": "Comunicacion efectiva en ingles juridico",
+    "descripcion": "X",
+    "area": "Derecho y ciencias políticas"
+  },
+  {
+    "id": 0.6689342856407166,
+    "titulo": "Identidad latinoamericana a traves de la moda: prendas con historia",
+    "descripcion": "X",
+    "area": "Arte, diseño y cultura"
   }
 ]

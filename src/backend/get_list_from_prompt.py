@@ -36,12 +36,12 @@ def get_list_from_prompt(dataset, prompt, classifier):
                                          dataset.loc[i, "Resultados de aprendizaje esperados"],
                                          dataset.loc[i, "Área temática"]])        
     
-    if len(selected_courses) > 8:
+    if len(selected_courses) > 6:
         selected_courses.sort(key=lambda x: x[0], reverse=True)
-        selected_courses = selected_courses[:8]
+        selected_courses = selected_courses[:6]
 
-    elif len(selected_courses) <= 8:
+    elif len(selected_courses) <= 6:
         other_courses.sort(key=lambda x: x[0], reverse=True)
-        selected_courses += other_courses[:8 - len(selected_courses)]
+        selected_courses += other_courses[:6 - len(selected_courses)]
 
     return selected_courses
