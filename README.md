@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# URutas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+URutas es una aplicación web diseñada para proporcionar a los usuarios una experiencia interactiva en la gestión de rutas. La aplicación utiliza React para el frontend y Flask para el backend. Emplea modelos de aprendizaje automático para brindar al usuario rutas de aprendizaje personalizadas, utilizando bibliotecas como pandas, torch y transformers.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **React** para un frontend responsivo.
+- **Flask** para un backend robusto.
+- Modelos de **aprendizaje automático** para funcionalidades mejoradas.
+- **CORS** para manejar solicitudes de origen cruzado.
+- Integración con la biblioteca de **transformers** para clasificación de secuencias.
 
-### `npm start`
+## Requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js
+- Python 3.x
+- Flask
+- pandas
+- torch
+- transformers
+- Flask-CORS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalación
 
-### `npm test`
+### Configuración del Backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clona el repositorio:
 
-### `npm run build`
+    ```bash
+    git clone https://github.com/naval07/URutas.git
+    cd urutas
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Instala los paquetes de Python requeridos:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    pip install flask pandas torch transformers flask-cors
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Inicia el servidor Flask:
 
-### `npm run eject`
+    ```bash
+    python server.py
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Configuración del Frontend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Navega al directorio del frontend:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    cd react
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Inicia la aplicación React:
 
-## Learn More
+    ```bash
+    npm start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Uso
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Asegúrate de que el servidor Flask esté en ejecución siguiendo las instrucciones de configuración del backend.
+2. Inicia la aplicación React usando las instrucciones de configuración del frontend.
+3. Abre tu navegador y navega a `http://localhost:3000` para acceder a la aplicación web URutas.
 
-### Code Splitting
+## Estructura del Proyecto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
