@@ -61,8 +61,6 @@ URutas es una aplicación web diseñada para proporcionar a los usuarios una exp
 
 1. Asegúrate de que el servidor Flask esté en ejecución siguiendo las instrucciones de configuración del backend.
 2. Inicia la aplicación React usando las instrucciones de configuración del frontend.
-3. Abre tu navegador y navega a `http://localhost:3000` para acceder a la aplicación web URutas.
-
-## Estructura del Proyecto
+3. Abre tu navegador y navega a `http://localhost:8000` para acceder a la aplicación web URutas.
 
 
