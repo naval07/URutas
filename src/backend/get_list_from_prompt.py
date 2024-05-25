@@ -23,7 +23,7 @@ def get_list_from_prompt(dataset, prompt, classifier):
     other_courses = []
 
     for i in range(len(results)):
-        if results[i]["scores"][0] > 0.8:
+        if results[i]["scores"][0] > 0.9:
             selected_courses.append([results[i]["scores"][0], 
                                      dataset.loc[i, "Título_original"], 
                                      dataset.loc[i, "Nivel"],
