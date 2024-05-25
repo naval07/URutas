@@ -80,9 +80,8 @@
 }
 
 @media (max-width: 1380px) {
-  .cursosLista1-grid { 
-    grid-template-columns: repeat(3,1f); /* Tres columnas con el mismo tamaño */
-    /* gap: 15px; */
+  .cursosLista1-grid {
+    grid-template-columns: repeat(3, 1fr); /* Muestra 2 tarjetas por fila */
   }
 }
 
