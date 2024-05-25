@@ -73,6 +73,7 @@ function Search() {
               title={item.titulo}
               area={item.area}
               descripcion={item.descripcion}
+              rutaImg={item.rutaImg}
             />
           ))}
         </div>

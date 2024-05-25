@@ -64,7 +64,8 @@ def get_json_from_prompt(prompt, dataset):
             "id": curso[0],
             "titulo": curso[1],
             "descripcion": curso[3],
-            "area": curso[4]
+            "area": curso[4],
+            "rutaImg": curso[5]
         }
         lista_de_diccionarios.append(curso_dict)
 

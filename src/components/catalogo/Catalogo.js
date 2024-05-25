@@ -40,6 +40,7 @@ function Catalogo(){
                   title = {item.Título}
                   area = {item.area}
                   descripcion={item.proposito}
+                  rutaImg={item.rutaImg}
                   />
                 )
               )
