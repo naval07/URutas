@@ -27,14 +27,16 @@ def get_list_from_prompt(dataset, prompt, classifier):
             selected_courses.append([results[i]["scores"][0], 
                                      dataset.loc[i, "Título_original"], 
                                      dataset.loc[i, "Nivel"],
-                                     dataset.loc[i, "Resultados de aprendizaje esperados"],
-                                     dataset.loc[i, "Área temática"]])
+                                     dataset.loc[i, "Propósito general del curso"],
+                                     dataset.loc[i, "Área temática"],
+                                     dataset.loc[i, "ruta_img"]])
         else:
             other_courses.append([results[i]["scores"][0], 
                                          dataset.loc[i, "Título_original"], 
                                          dataset.loc[i, "Nivel"],
-                                         dataset.loc[i, "Resultados de aprendizaje esperados"],
-                                         dataset.loc[i, "Área temática"]])        
+                                         dataset.loc[i, "Propósito general del curso"],
+                                         dataset.loc[i, "Área temática"],
+                                         dataset.loc[i, "ruta_img"]])        
     
     if len(selected_courses) > 6:
         selected_courses.sort(key=lambda x: x[0], reverse=True)

@@ -1,17 +1,11 @@
 import React, { useState } from "react";
 import "./CardTrial.css";
 
-function CardTrial({ title, area, descripcion }) {
+function CardTrial({ title, area, descripcion, rutaImg }) {
   const [expanded, setExpanded] = useState(false);
 
   function expand() {
     setExpanded(!expanded);
-  }
-
-  function getRandomImg() {
-    var numeroImg = Math.floor(Math.random() * 10 + 1);
-    var ruta = "/fondoCartas/img" + String(numeroImg) + ".jpg";
-    return ruta;
   }
 
   return (
@@ -19,7 +13,7 @@ function CardTrial({ title, area, descripcion }) {
       <div
         className="card-image"
         style={{
-          backgroundImage: `url("${process.env.PUBLIC_URL + getRandomImg()}")`,
+          backgroundImage: `url("${process.env.PUBLIC_URL + rutaImg}")`,
         }}
       ></div>
       <div className="title">

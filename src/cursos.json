@@ -1,50 +1,44 @@
 [
   {
-    "id": 0.9086989760398865,
-    "titulo": "Educacion emocional para el bienestar personal",
-    "descripcion": "X",
-    "area": "Desarrollo personal Salud y seguridad"
+    "id": 0.8736293315887451,
+    "titulo": "Keystone project",
+    "descripcion": "Curso de quinto semestre para todos los estudiantes de la EICT , busca desarrollar competencias para la materializacion de estrategias que soluciones proyectos sociales mediados por la tecnologia . Este curso busca incentivar el trabajo interdisciplinario entre los estudiantes de la EICT mediante la ejecucion de un proyecto, durante todo el periodo academico. Durante el curso, los estudiantes trabajaran en equipos para desarrollar un proyecto que busca resolver un re to contextualizado en los problemas que enfrentan las organizaciones y la sociedad. Los estudiantes deben definir una problematica de interes en un contexto local, describiendo claramente el problema a enfrentar y estableciendo objetivos claros y adecuados . Cada grupo de trabajo debe disenar, implementar y evaluar una posible solucion. Para cumplir con este objetivo, cada grupo debe organizarse y funcionar como una nueva empresa de pequena escala. La idea es que todos los grupos vivan una experiencia de emp rendimiento acelerado. Al finalizar el periodo academico, cada equipo debe presentar un producto/prototipo funcional a una mesa de jurados evaluadores. La sesion de evaluacion final, llamada “ Demoday - Mision Keystone EpiCentro – Emprendimiento social de base tecnologica ”, consiste en una dinamica de presentacion de productos innovadores a un jurado especializado. El jurado seleccionado sera responsable de evaluar la planeacion y proyeccion de cada emprendimiento , asi como el prototipo presentado, seleccionando el mas innovador, util y eficiente.",
+    "area": "EICT",
+    "rutaImg": "/fondoCartas/img4.jpg"
   },
   {
-    "id": 0.975669801235199,
-    "titulo": "Derechos Humanos y empresas",
-    "descripcion": "X",
-    "area": "Derecho y ciencias políticas"
+    "id": 0.8883308172225952,
+    "titulo": "Artefactos decoloniales e innovacion desde la otra orilla.",
+    "descripcion": "Comprender la innovacion en un sentido contemporaneo y decolonial, desde las tecnologias de garaje colaterales o perifericas, poniendo en relevancia la innovacion social mediante las herramientas de mapeo evidenciando manifestaciones de tecnologias en tu contexto mas cercano.",
+    "area": "Arte, diseño y cultura",
+    "rutaImg": "/fondoCartas/img7.jpg"
   },
   {
-    "id": 0.9708540439605713,
-    "titulo": "El poder de la comunicacion consciente",
-    "descripcion": "X",
-    "area": "Ciencias humanas Comunicación"
+    "id": 0.9270070195198059,
+    "titulo": "Doctrinas Economicas",
+    "descripcion": "El curso de doctrinas economicas tiene como objetivo mostrar la manera en que se  ha  construido el pensamiento sistemico en la ciencia economica. Ademas, propone un  analisis de la estructura teorica, principales metodologias y premisas de las principales   corrientes y asi  comprender los problemas de la ciencia economica en la actualidad. Al   final, se busca que un entendimiento de las teorias desarrolladas a lo largo de la historia  social, ofrecera herramientas para resolver dilemas y problemas de la agenda de  investigacion de la ciencia economica  contemporanea  en particular y de las ciencias  sociales en general.     Para lograr este objetivo, el curso presenta las doctrinas economicas en su contexto  historico de surgimiento y la manera en que  son producto de tensiones sociales de su  epoca.     Luego de presentar el contexto historico, social y cientifico, se presentaran las principales  caracteristicas de cada doctrina economica. En este sentido, se incluiran los principales  conceptos, supuestos y conclusiones de cada corriente, asi como la metodologia que  permite dif erenciar a las doctrinas entre si.     La finalidad de este proceso de aprendizaje de las doctrinas economicas es lograr una  comprension general d el proceso historico que hay detras de la construccion de los  conocimientos asociados a  la ciencia economica del  siglo XXI. La ciencia actual es el  resultado de este acumulado de conocimientos representados en las doctrinas  economicas  y el enfasis del curso, al trabajar las fuentes primarias de este pensamiento,  es dar una introduccion de primera mano a los estudian tes de los autores tomados como  representativos de la historia de la economia como disciplina cientifica.       ",
+    "area": "Economía",
+    "rutaImg": "/fondoCartas/img2.jpg"
   },
   {
-    "id": 0.7770038843154907,
-    "titulo": "Seguridad de redes",
-    "descripcion": "X",
-    "area": "MACC"
+    "id": 0.9109981656074524,
+    "titulo": "Microeconomia III",
+    "descripcion": "El curso de Microeconomia III corresponde a la ultima etapa de formacion para pregrado en  el area de microeconomia. Tiene tres unidades en las que se estudiara el Equilibrio General y  sus implicaciones, la Economia desde la aproximacion del Bienestar, y finalmente las Fallas  de Mercado.   En la primera parte del curso se aborda la teoria del equilibrio general. Esta teoria representa  uno de los avances teoricos mas importantes dentro de la historia de la ciencia economica.  Por tal motivo,  es de gran  importancia  entender  por que y como  los mercados  y los agentes  se  interrelacionan  entre  si. El marco  teorico  parte  de un modelo  muy  sencillo  con consumidores,  que poco a poco va introduciendo y relajando supuestos con el fin de introducir en la  estructura de analisis principios basicos sobre la interrelacion con firmas. Despues se  relacionaran  el equilibrio  general  con la teoria  del bienestar,  y se estudiaran  las situaciones  en  el que el mercado por si solo no nos lleva a una situacion eficiente. Este sera el marco para  discutir temas de politica economica, las discusiones sobre la teoria de la justicia y analizar  problemas econom icos colombianos. En la ultima parte se revisaran las fallas arquetipicas del  mercado, a saber, la presencia de externalidades, de bienes publicos y de asimetria de informacion. Esto dara herramientas adicionales a los estudiantes para discutir sobre las politicas publicas.   De este modo, durante el curso, los estudiantes aprenderan los conceptos y propiedades  basicas de la teoria neoclasica del equilibrio general, y entenderan su funcionamiento como  herramienta  de analisis y  de politica.  En particular,  con respecto  a su relacion  con el bienestar  y las fallas del mercado y el analisis de las politicas  economicas.     ",
+    "area": "Economía",
+    "rutaImg": "/fondoCartas/img2.jpg"
   },
   {
-    "id": 0.718051016330719,
-    "titulo": "Conflictos sociales a traves de la novela grafica contemporanea",
-    "descripcion": "X",
-    "area": "Ciencias sociales"
+    "id": 0.8704975247383118,
+    "titulo": "Economia y genero",
+    "descripcion": "La economia como disciplina se ha caracterizado por ser una disciplina masculinizada , la cual ha  sido liderada  y escrita  por hombres; de igual manera, se encuentra evidencia de una participacion  desproporcionada de hombres en instituciones de politica economica, tales como bancos  centrales, y ministerios de hacienda.  En segundo lugar, se identifica una baja presencia de mu jeres  en la academia, lo cual se ha venido ralentizando en los ultimos anos en distintos paises.  Lo  anterior da cuenta de la necesidad de realizar investigaciones sobre las causas de este fenomeno  y posibles acciones para el cierre de brechas.     Por otra pa rte, la literatura y las oficinas estadisticas han  identificado la existencia de  brechas   economicas de genero tales como desigualdad en la remuneracion de las y los trabajadores,  menor acceso de las mujeres al mercado laboral, un indice en ascenso de la fe minidad de la  pobreza, y barreras para el liderazgo de instituciones relevantes de la politica economica y  empresarial del pais y del mundo.     En ese sentido, es relevante estudiar la economia desde un enfoque de genero para comprender  las herramientas y lo s sesgos con los que la disciplina cuenta para crear una perspectiva critica y  propositiva que le permita aportar con mayores insumos a los debates de politica publica en el  cierre de brechas. De igual manera, es importante estudiar la construccion de los principales  indicadores que dan cuenta de las brechas economicas, asi como sus fortalezas y debilidades.   En ese sentido, este espacio academico busca que las personas que hacen parte del curso tengan  herramientas para tomar posturas criticas respecto a la participacion de las mujeres en la ",
+    "area": "Economía",
+    "rutaImg": "/fondoCartas/img9.jpg"
   },
   {
-    "id": 0.7143043279647827,
-    "titulo": "Comunicacion oral en entornos juridicos.",
-    "descripcion": "X",
-    "area": "Derecho y ciencias políticas"
-  },
-  {
-    "id": 0.69569993019104,
-    "titulo": "Comunicacion efectiva en ingles juridico",
-    "descripcion": "X",
-    "area": "Derecho y ciencias políticas"
-  },
-  {
-    "id": 0.6689342856407166,
-    "titulo": "Identidad latinoamericana a traves de la moda: prendas con historia",
-    "descripcion": "X",
-    "area": "Arte, diseño y cultura"
+    "id": 0.8461923599243164,
+    "titulo": "Globalizacion, Finanzas y  Comercio Internacional",
+    "descripcion": "El curso abarca el concepto de globalizacion de manera integral, ya que se refiere a las distintas herramientas de  homogenizacion y a la vez de fraccionamiento articulado del mundo que reordenan las diferencias y las desigualdades sin  suprimirlas. Entre es as herramientas de homogenizacion se establecieron: el fortalecimiento del comercio internacional, el  incremento relativo de la movilizacion internacional de factores, la virtualizacion de las transacciones y la desaparicion de   fronteras entre plazas finan cieras. Sin embargo, las premisas de que la globalizacion tiene alcances vinculantes y es  transversal a toda la poblacion, esta replanteada, ya que el mundo al verse expuesto a la presuncion de eficiencia de la  globalizacion, esta llevando a la comunidad i nternacional a plantear politicas de decrecimiento, dandole mas importancia a  la soberania estatal en terminos economicos y a fortalecer los discursos separatistas debido a la conflictividad social y  deterioro del desarrollo.   No obstante, para estudiar lo s alcances teoricos de la globalizacion se utilizan y profundizan conceptos como el comercio  internacional, la balanza de pagos, la movilizacion internacional de factores y las finanzas internacionales. Para abarcar es tos  conceptos se utilizaran como Meta discursos la economia internacional, las finanzas internacionales y la politica economica.   El principal proposito es entregar a los estudiantes herramientas que les permita conocer y analizar los alcances teoricos  de la globalizacion aplicados a situacion es estructurales y coyunturales, en ambitos economicos, sociales y politicos diversos.  Asimismo, analizaran las causas y efectos de fenomenos que en forma cotidiana se presentan en el entorno internacional,  repercutiendo en el nacional. Para tal efecto, re alizaran un recorrido a traves de los postulados teoricos de las politicas de  coordinacion macroeconomica, su armonizacion y posteriores efectos, con el que conoceran a fondo las relaciones mundiales  y el modo en que estas han ido evolucionando.   .  ",
+    "area": "Finanzas y Comercio Internacional",
+    "rutaImg": "/fondoCartas/img8.jpg"
   }
 ]
