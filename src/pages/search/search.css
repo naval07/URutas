@@ -27,21 +27,12 @@
   border: none;
 }
 
-.cursosLista {
-  padding-top: 5%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Tres columnas con el mismo tamaño */
-  gap: 120px;
-}
+/* Eliminación de la clase cursosLista */
 
-.cursosLista1 {
-  padding-top: 5%;
-  /* display: flex; */
-  /* Center horizontally */
-  justify-content: center;
-}
+/* Eliminación de la clase cursosLista1 */
 
 .cursosLista1-grid {
+  padding-top:5%;
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Tres columnas con el mismo tamaño */
   gap: 15px;

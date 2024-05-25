@@ -8,6 +8,8 @@ import 'primeflex/primeflex.css';
 import 'primereact/resources/themes/lara-light-indigo/theme.css';
 import 'primereact/resources/primereact.css';
 import cursos from "../../cursos.json";
+import CardTrial from "../cardtrial/CardTrial";
+import '../../pages/search/search.css'
 
 
 import CardSearch from '../../components/cardSearch/CardSearch';
@@ -151,34 +153,27 @@ export default function HookFormDoc() {
                 {getFormErrorMessage('value')}
                 <Button  type="submit" label="Buscar" className="ml-6 mt-2 border-ra" />
             </form>
-
-            <div className="coursesList">
-            {cursos.map(item =>(
-                    <CardSearch
-                    key = {item.id}
-                    title = {item.titulo}
-                    area = {item.area}
-                    descripcion={item.descripcion}
-                    onClick={handleClick}
-                    />
-                ))}
-
-{mostrarModal && (
-      <div className="modal">
-        <div className="modal-content">
-            <h4>Descripción del curso</h4>
-        <p>{modalDescription}</p>
-        <button onClick={()=>setMostrarModal(false)}>Cerrar </button>
+            {/* Eliminación corusesList */}
+            <div className="cursosLista1-grid">
+            {cursos.map((item) => (
+                <CardTrial
+                key={item.id}
+                title={item.titulo}
+                area={item.area}
+                descripcion={item.descripcion}
+                />
+            ))}
             </div>
-      </div>
-    )}
-                
-            </div>
-
-            
-
-
-            
-        </div>
+        </div>                
     )
 }
+
+{/* {mostrarModal && (
+<div className="modal">
+<div className="modal-content">
+<h4>Descripción del curso</h4>
+<p>{modalDescription}</p>
+<button onClick={()=>setMostrarModal(false)}>Cerrar </button>
+</div>
+</div>
+)} */}

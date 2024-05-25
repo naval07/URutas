@@ -36,13 +36,13 @@ body {
   width: 70px;
 }
 
-.coursesList {
+/* .coursesList {
   padding-top: 5%;
   display: grid;
   justify-items: center;
-  grid-template-columns: repeat(3, 1fr); /* Tres columnas con el mismo tamaño */
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-}
+} */
 
 .p-multiselect .p-multiselect-label {
   display: flex;
