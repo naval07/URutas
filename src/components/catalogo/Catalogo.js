@@ -4,6 +4,7 @@ import catalogo from './catalogo.json';
 import CardSearch from '../cardSearch/CardSearch';
 import CardTrial from '../cardtrial/CardTrial';
 import './Catalogo.css';
+import '../../pages/search/search.css';
 
 
 function Catalogo(){
@@ -32,7 +33,7 @@ function Catalogo(){
     
     
     return(
-        <div class = "catalogo">
+        <div class = "cursosLista1-grid">
             {catalogo.map(
               (item) =>(<CardTrial
                   key = {item.index}

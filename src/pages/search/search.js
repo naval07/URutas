@@ -65,18 +65,18 @@ function Search() {
           <button onClick={handleGetJson}>Buscar</button>
         </div>
 
-        <div className="cursosLista1">
-          <div className="cursosLista1-grid ">
-            {cursos.map((item) => (
-              <CardTrial
-                key={item.id}
-                title={item.titulo}
-                area={item.area}
-                descripcion={item.descripcion}
-              />
-            ))}
-          </div>
+        {/* Eliminación del div .cursosLista1 */}
+        <div className="cursosLista1-grid">
+          {cursos.map((item) => (
+            <CardTrial
+              key={item.id}
+              title={item.titulo}
+              area={item.area}
+              descripcion={item.descripcion}
+            />
+          ))}
         </div>
+        
 
         {/* <div className="cursosLista">
                 {cursos.map(item =>(
